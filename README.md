@@ -8,7 +8,7 @@ It transfers contents of a local file ~/.backpack and itself to remote host, sou
 * works best as `alias ssh=backpack`
 * won't create any files on remote hosts (even temporary)
 * tries to fallback to normal ssh when remote shell is not bash
-* **self-replication** allows you to use backpack again directly from remote host, in this case backpack will keep original local file as you go deaper from host to host.
+* **self-replication** allows you to use backpack again directly from remote host, in this case backpack will keep original local file as you go deeper from host to host.
 
 Example of ~/.backpack file:
 	
